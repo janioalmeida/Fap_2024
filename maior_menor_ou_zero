@@ -1,0 +1,8 @@
+num = float(input('Informe um número: '))
+
+if num < 0:
+    print('numero negativo')
+if num == 0:
+    print('zero')
+if num > 0:
+    print('numnero positivo')
