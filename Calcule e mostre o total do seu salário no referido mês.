@@ -1,0 +1,7 @@
+salario_hora = float(input('digite o valor que voce ganha por hora'))
+
+horas_trabalhadas_mes = float(input('digite a hora que vice trabalhou esse mês'))
+
+salario_total = salario_hora * horas_trabalhadas_mes
+
+print('ganhando', salario_hora, 'a hora tendo trabalhado', horas_trabalhadas_mes, 'horas no mes, seu salario este mês é de', salario_total)
