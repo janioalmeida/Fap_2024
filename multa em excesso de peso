@@ -1,0 +1,7 @@
+pesoPeixe = float(input('digite o peso do peixe em kg'))
+
+excesso = pesoPeixe - 50
+
+multa = excesso * 4
+
+print(f'Foram {excesso:.2f}Kg em excesso , logo, a multa  e de R${multa:.2f}.')
