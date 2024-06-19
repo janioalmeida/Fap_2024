@@ -1,0 +1,7 @@
+idade = 20
+possuiCartaoCredito = True
+
+if (idade > 18) and possuiCartaoCredito:
+    print ('voce pode comprar online')
+else:
+    print('negado')
